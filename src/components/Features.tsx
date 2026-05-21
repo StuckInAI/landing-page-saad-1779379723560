@@ -22,7 +22,7 @@ const features: Feature[] = [
     icon: <BarChart3 size={22} />,
     title: 'Real-Time Analytics',
     description:
-      'Get instant visibility into your team's performance with beautiful, actionable dashboards.',
+      "Get instant visibility into your team's performance with beautiful, actionable dashboards.",
   },
   {
     icon: <Shield size={22} />,
