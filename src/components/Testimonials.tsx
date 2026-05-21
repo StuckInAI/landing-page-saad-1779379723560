@@ -28,7 +28,7 @@ const testimonials: Testimonial[] = [
     initials: 'MR',
     color: '#8b5cf6',
     quote:
-      'I've tried every PM tool out there. NexaFlow is the first one that actually gets out of my team's way. The AI insights are scary accurate.',
+      "I've tried every PM tool out there. NexaFlow is the first one that actually gets out of my team's way. The AI insights are scary accurate.",
     rating: 5,
   },
   {
@@ -48,7 +48,7 @@ const testimonials: Testimonial[] = [
     initials: 'JO',
     color: '#06b6d4',
     quote:
-      'The real-time analytics dashboard transformed how we run standups. Blockers surface automatically now — it's changed everything.',
+      "The real-time analytics dashboard transformed how we run standups. Blockers surface automatically now — it's changed everything.",
     rating: 5,
   },
   {
@@ -58,7 +58,7 @@ const testimonials: Testimonial[] = [
     initials: 'LM',
     color: '#10b981',
     quote:
-      'We were skeptical at first, but NexaFlow paid for itself in the first month. The ROI calculator in their dashboard is chef's kiss.',
+      "We were skeptical at first, but NexaFlow paid for itself in the first month. The ROI calculator in their dashboard is chef's kiss.",
     rating: 5,
   },
   {
@@ -87,7 +87,7 @@ export default function Testimonials() {
             Loved by 50,000+ teams
           </h2>
           <p className="text-slate-400 text-lg max-w-xl mx-auto">
-            Don't take our word for it. Here's what real users have to say.
+            Don&apos;t take our word for it. Here&apos;s what real users have to say.
           </p>
         </div>
 
@@ -102,7 +102,7 @@ export default function Testimonials() {
                 ))}
               </div>
               {/* Quote */}
-              <p className="text-slate-300 text-sm leading-relaxed flex-1">"{t.quote}"</p>
+              <p className="text-slate-300 text-sm leading-relaxed flex-1">&ldquo;{t.quote}&rdquo;</p>
               {/* Author */}
               <div className="flex items-center gap-3 pt-2 border-t border-white/5">
                 <div
